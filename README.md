@@ -1,6 +1,6 @@
 # SB3 JSON Asset Reader
 ## What is this?
-This repository gives you a tool to download assets from an SB3 JSON file to be zipped up with an SB3 JSON file in the future to convert your Scratch 3.0 projects to 2.0
+This repository gives you a tool to download assets from an SB3 JSON file to be zipped up with an SB2 JSON file in the future to convert your Scratch 3.0 projects to 2.0
 
 ## Requirements
 - Node.js
