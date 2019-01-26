@@ -1,0 +1,16 @@
+// Note: This is not for use with any other packaging tools and is only for use of the build tool for this asset reader
+
+{
+"build_files": {
+    [
+      {
+        "name":"lib.js",
+        "dependencies":[
+          "lib/exec.js",
+          "lib/downloadAsset.js"
+         ]
+      },
+    ]
+  }
+
+}
