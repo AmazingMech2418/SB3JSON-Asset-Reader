@@ -8,6 +8,6 @@
           "lib/exec.js",
           "lib/downloadAsset.js"
          ]
-      },
+      }
     ]
 }
