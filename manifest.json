@@ -20,6 +20,13 @@
           "lib.js",
           "src.js"
          ]
+      },
+      {
+        "name":"run.sh",
+        "dependencies":[
+          "build/start.sh",
+          "build/prune.sh"
+         ]
       }
     ]
 }
