@@ -13,7 +13,7 @@ var x;
 }
 
 function getFiles() {
-var projectJSON = JSON.parse(read("project.json"));
+var projectJSON = JSON.parse(fs.readFileSync("project.json").toString());
 // read all "md5ext" attributes into an array
   var x;
   for(x in projectJSON) {
