@@ -22,4 +22,4 @@ rm nodeShellExec.sh
 rm testfile.txt
 rm lib.js
 rm src.js
-rm build.js
+rm run.sh
