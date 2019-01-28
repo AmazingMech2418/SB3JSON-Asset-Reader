@@ -5,7 +5,7 @@ var x;
   for(x in object) {
   if(x="md5ext") {
   md5ext_arr.push(object[x]);
-  } else if (typeof(x)=="object" || typeof(x)=="array") {
+  } else if (typeof(object[x])=="object" || typeof(object[x])=="array") {
   recursive_md5extSearch(object[x]);
   }
   }
