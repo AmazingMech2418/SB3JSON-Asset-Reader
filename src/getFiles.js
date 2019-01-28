@@ -4,7 +4,7 @@ function recursive_md5extSearch(object) {
   console.log(object)
 var x;
   for(x in object) {
-  if(x="md5ext") {
+  if(x=="md5ext") {
   md5ext_arr.push(object[x]);
   } else if (typeof(object[x])=="object" || typeof(object[x])=="array") {
   recursive_md5extSearch(object[x]);
@@ -17,7 +17,7 @@ var projectJSON = JSON.parse(read("project.json"));
 // read all "md5ext" attributes into an array
   var x;
   for(x in projectJSON) {
-  if(x="md5ext") {
+  if(x=="md5ext") {
   md5ext_arr.push(projectJSON[x]);
   } else {
   recursive_md5extSearch(projectJSON[x]);
