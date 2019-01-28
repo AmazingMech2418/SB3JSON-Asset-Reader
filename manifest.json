@@ -6,6 +6,20 @@
           "lib/exec.js",
           "lib/downloadAsset.js"
          ]
+      },
+      {
+        "name":"src.js",
+        "dependencies":[
+          "src/getFiles.js",
+          "src/download.js"
+         ]
+      },
+      {
+        "name":"index.js",
+        "dependencies":[
+          "lib.js",
+          "src.js"
+         ]
       }
     ]
 }
