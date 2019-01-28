@@ -1,6 +1,7 @@
 var md5ext_arr = [];
 
 function recursive_md5extSearch(object) {
+  console.log(object)
 var x;
   for(x in object) {
   if(x="md5ext") {
